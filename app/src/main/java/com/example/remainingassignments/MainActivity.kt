@@ -23,4 +23,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToArrayListActivity(view: View) {
         startActivity(Intent(this, ArrayListActivity::class.java))
     }
+
+    fun moveToActivityLifecycle(view: View) {
+        startActivity(Intent(this, ActivityLifecycle::class.java))
+    }
 }
