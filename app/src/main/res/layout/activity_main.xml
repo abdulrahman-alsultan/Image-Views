@@ -89,6 +89,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/recycler_view_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycler View Activity"
+            android:onClick="moveToRecyclerViewActivity"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

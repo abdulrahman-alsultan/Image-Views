@@ -35,4 +35,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToImageViews(view: View) {
         startActivity(Intent(this, ImageViews::class.java))
     }
+
+    fun moveToRecyclerViewActivity(view: View) {
+        startActivity(Intent(this, RecyclerViewActivity::class.java))
+    }
 }
