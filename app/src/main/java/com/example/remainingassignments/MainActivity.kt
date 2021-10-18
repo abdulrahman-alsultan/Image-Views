@@ -27,4 +27,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToActivityLifecycle(view: View) {
         startActivity(Intent(this, ActivityLifecycle::class.java))
     }
+
+    fun moveToSimpleCalculator(view: View) {
+        startActivity(Intent(this, SimpleCalculator::class.java))
+    }
 }
