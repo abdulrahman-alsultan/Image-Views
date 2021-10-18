@@ -29,6 +29,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/persistent_calculation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Persistent Calculation"
+            android:onClick="moveToPersistentCalculation"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

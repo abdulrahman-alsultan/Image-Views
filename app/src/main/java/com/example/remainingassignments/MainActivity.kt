@@ -15,4 +15,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToButtonCounter(view: View){
         startActivity(Intent(this, ButtonCounter::class.java))
     }
+
+    fun moveToPersistentCalculation(view: View) {
+        startActivity(Intent(this, PersistentCalculation::class.java))
+    }
 }
