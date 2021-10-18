@@ -77,6 +77,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/image_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Views"
+            android:onClick="moveToImageViews"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

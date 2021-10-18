@@ -31,4 +31,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToSimpleCalculator(view: View) {
         startActivity(Intent(this, SimpleCalculator::class.java))
     }
+
+    fun moveToImageViews(view: View) {
+        startActivity(Intent(this, ImageViews::class.java))
+    }
 }
