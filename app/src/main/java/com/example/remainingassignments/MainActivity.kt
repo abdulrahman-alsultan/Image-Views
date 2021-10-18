@@ -19,4 +19,8 @@ class MainActivity : AppCompatActivity() {
     fun moveToPersistentCalculation(view: View) {
         startActivity(Intent(this, PersistentCalculation::class.java))
     }
+
+    fun moveToArrayListActivity(view: View) {
+        startActivity(Intent(this, ArrayListActivity::class.java))
+    }
 }

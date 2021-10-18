@@ -41,6 +41,18 @@
             android:layout_height="0dp"
             android:layout_weight="1"/>
 
+        <Button
+            android:id="@+id/arrayList_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ArrayList Activity"
+            android:onClick="moveToArrayListActivity"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
